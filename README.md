@@ -1,5 +1,7 @@
 # RSS Feed GNOME Shell extension
 
+*This is a fork from https://github.com/todevelopers/gnome-shell-extension-rss-feed. I have taken over maintainership of this project for extensions.gnome.org.*
+
 Simple RSS Feed reader extension for GNOME Shell.
 
 This extension adds button (RSS icon) to the GNOME Shell panel. After click on it, you can see your RSS Feeds in popup menu and navigate through them. When you click on some article, extension opens your default browser with it. Bottom bar contains buttons for navigating, refreshing and Settings tab.
