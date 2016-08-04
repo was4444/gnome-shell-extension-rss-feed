@@ -1,5 +1,7 @@
 # RSS Feed GNOME Shell extension
 
+*This is a fork from https://github.com/todevelopers/gnome-shell-extension-rss-feed. I have taken over maintainership of this project for extensions.gnome.org.*
+
 Simple RSS Feed reader extension for GNOME Shell.
 
 This extension adds button (RSS icon) to the GNOME Shell panel. After click on it, you can see your RSS Feeds in popup menu and navigate through them. When you click on some article, extension opens your default browser with it. Bottom bar contains buttons for navigating, refreshing and Settings tab.
@@ -29,16 +31,7 @@ Go to https://extensions.gnome.org/extension/948/rss-feed/ and install it from t
 
 ### Manual installation
 
-Download latest release (https://github.com/todevelopers/gnome-shell-extension-rss-feed/releases/download/v1.2/rss-feed-v1.2.zip) and unpack it to this directory `~/.local/share/gnome-shell/extensions/rss-feed@gnome-shell-extension.todevelopers.github.com`. Restart the gnome shell by `ALT+F2`, type `r` and hit `Enter`.
-
-Commands to install:
-```
-mkdir -p ~/.local/share/gnome-shell/extensions/rss-feed@gnome-shell-extension.todevelopers.github.com
-cd ~/.local/share/gnome-shell/extensions/rss-feed@gnome-shell-extension.todevelopers.github.com
-curl -O https://github.com/todevelopers/gnome-shell-extension-rss-feed/releases/download/v1.2/rss-feed-v1.2.zip
-unzip rss-feed-v1.2.zip
-rm rss-feed-v1.2.zip
-```
+Download latest release (https://github.com/maweki/gnome-shell-extension-rss-feed/archive/master.zip) and unpack the `rss-feed@gnome-shell-extension.todevelopers.github.com` folder into to this directory `~/.local/share/gnome-shell/extensions/`. Restart the gnome shell by `ALT+F2`, type `r` and hit `Enter`.
 
 ## Screenshots
 
